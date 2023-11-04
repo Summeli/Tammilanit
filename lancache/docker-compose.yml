@@ -1,7 +1,10 @@
+
 version: '2'
 x-restart-policy: &restart-policy "no"
 services:
   dns:
+    volumes:
+      - /home/summeli/lancache/custom.db:/etc/bind/cache/custom.db
     image: lancachenet/lancache-dns:latest
     env_file: .env
     restart: *restart-policy
