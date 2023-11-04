@@ -2,9 +2,19 @@
 Configuration files to our LAN-party
 
 ## LANCache
+See https://lancache.net/ for more documentation. Here's just my own config and notes.
 Start it with 
-'sudo docker-compose up -d --remove-orphans'
+```c
+sudo docker-compose up -d --remove-orphans
+```
 Stop with
-'sudo docker-compose down'
+```c
+sudo docker-compose down
+```
 see logs
-'tail -100f lancache/logs/access.log' 
+```c
+tail -100f lancache/logs/access.log
+```
+
+## Pfsense
+Pfsense is configured with 4 Internet connection. One for LANCache, one of odd client, one for even clients, and then there's one extra.
