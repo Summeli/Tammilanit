@@ -1,2 +1,12 @@
-jpmaa.lanit        A       192.168.0.13
-summeli.lanit        A       192.168.0.14
+jpmaa.lanit         A      192.168.0.13
+summeli.lanit       A      192.168.0.14
+tammilanit.fi       A      192.168.0.10
+prox.tammilanit.fi  A      192.168.0.11
+files.tammilanit.fi A      192.168.0.10
+fry.tammilanit.fi   A      192.168.0.10
+game.tammilanit.fi  A      192.168.0.10
+lanbin.tammilanit.fi A     192.168.0.10
+ngp.tammilanit.fi   A      192.168.0.10
+olivetin.tammilanit.fi A   192.168.0.10
+snap.tammilanit.fi  A      192.168.0.10
+wiki.tammilanit.fi  A      192.168.0.10
